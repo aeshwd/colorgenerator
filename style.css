@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+}
+
+.buttons{
+    gap: 20px;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+   
+}
+
+.buttons .btn1{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 3px 10px;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.buttons .btn2{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 3px 10px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.text h3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.copy{
+    font-family: sans-serif;
+    max-width: 300px;
+    line-height: 1.5;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
